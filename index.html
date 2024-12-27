@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>hello</title>
+    <style>
+        * {
+            padding: 3px;
+            margin: 5px;
+        }
+
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 25%;">
+        <h3><u>Project Management</u></h3>
+        <form action="/database.php" style="background-color:#40eaff">
+            <label for="pname"><b>Project Name</b></label>
+            <input type="text" name="pname" placeholder="project name">
+            <br>
+            <label for="ass_to"><b>Assigned to&nbsp;&nbsp;&nbsp;</b></label>
+            <select name="ass_to" id="ass_to">
+                <option value="Er Merry Petision">Er Merry Petision</option>
+                <option value="Pulkit">Pulkit</option>
+            </select>
+            <br>
+            <label for="sd"><b>Start Date</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" name="sd" placeholder="dd-mm-yyyy">
+            <br>
+            <label for="ed"><b>End Date</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="date" name="ed" placeholder="dd-mm-yyyy">
+            <br>
+            <span><b>Priority&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></span>
+            <input type="radio" name="prio1" id="prio1" value="High" style="margin: 0px; padding: 0px;">
+            <label for="prio1" style="margin: 0px; padding: 0px;"><b style="margin: 0px; padding: 0px;">High</b></label>
+            <input type="radio" name="prio1" id ="prio2" value="Average" style="margin: 0px; padding: 0px;">
+            <label for="prio2" style="margin: 0px; padding: 0px;"><b style="margin: 0px; padding: 0px;">Average</b></label>
+            <input type="radio" name="prio1" id="prio3" value="Low" style="margin: 0px; padding: 0px;">
+            <label for="prio3" style="margin: 0px; padding: 0px;"><b style="margin: 0px; padding: 0px;">Low</b></label>
+            <br>
+            <div style="display: flex; align-items: center;">
+            <label for="desc"   ><b>Description</b></label>
+            <textarea name="desc" rows="2" cols="20"></textarea>
+        </div>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" value="Submit" style="background-color:#3de353; border: none; color: white; padding: 8px 10px ; border-radius: 3px;">
+            <input type="reset" value="clear" style="background-color:#2b59cc; border: none; padding: 8px 18px; border-radius: 3px; color: white;" >
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
